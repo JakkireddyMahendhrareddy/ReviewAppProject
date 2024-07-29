@@ -1,0 +1,45 @@
+/* Write your code here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+}
+
+.inner-container {
+  height: 80vh;
+  width: 70vw;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+}
+.img {
+  height: 30vh;
+  width: 17vw;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.list {
+  margin-right: 20px;
+}
+.btn {
+  background-color: transparent;
+  color: red;
+  height: 7vh;
+  width: 7vw;
+  border-width: 0px;
+  padding-top: 30px;
+}
+.para {
+  text-align: center;
+}
